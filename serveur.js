@@ -19,7 +19,7 @@ appli.get(
 response.json(retour);
 });
 
-appli.listen(6969,function(){
+appli.listen(process.env.PORT || 6969,function(){
 
 console.log("jecoute rien du tt");
 
