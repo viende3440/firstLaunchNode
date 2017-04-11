@@ -1,0 +1,22 @@
+{
+  "name": "nodebewweb",
+  "version": "0.1.1",
+  "description": "init to node.js",
+  "main": "serveur.js",
+  "scripts": {
+    "test": "node serveur.js"
+  },
+  "dependencies":{
+  "express": "4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vien3440/firstLaunchNode.git"
+  },
+  "author": "Vien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vien3440/firstLaunchNode/issues"
+  },
+  "homepage": "https://github.com/Vien3440/firstLaunchNode#readme"
+}
