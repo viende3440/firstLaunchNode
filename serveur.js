@@ -11,7 +11,7 @@ appli.get(
 );
 appli.get(
 	'/user',
-	function(request,response){
+	function(response){
 	var retour = {
 		nom : "wep",
 		prenom : "la clé"
