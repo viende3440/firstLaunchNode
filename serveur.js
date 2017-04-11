@@ -5,7 +5,8 @@ var appli = express();
 appli.get(
 	'/',
 	function(request,response){
-	response.send('salut a toi larmerien');
+	response.sendFile(__dirname + '/index.html');
+        
 }
 );
 appli.get(
